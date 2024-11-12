@@ -11,7 +11,7 @@ public class ProductApplication {
     }
 
     public void append(Product product) {
-        this.productService.save(product);
+            this.productService.save(product);
     }
 
     public void remove(int id) {
